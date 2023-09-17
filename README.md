@@ -1,7 +1,7 @@
 # TensorFlow-in-GPT-4-advanced-data-analysis-mode
 Install TensorFlow on GPT-4 (advanced data analysis mode), or any other not pre-installed libraries.
 
-Note: GPT-4 has a limit of maximum size of file(s) upload at one time(Max 512MB). So we choose TensorFlow==2.3.0(manylinux;cp38), and uploads all the dependencies(~370MB in total) and instruct GPT to install it.
+Note: GPT-4 has a limit of maximum size and amount of file(s) upload at one time(Max 512MB,10files). So we choose TensorFlow==2.3.0(manylinux;cp38), and uploads all the dependencies(~370MB in total) in 4 turns and instruct GPT to install it.
 
 ## Steps
 **WIP**
