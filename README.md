@@ -1,14 +1,39 @@
-# TensorFlow-in-GPT-4-advanced-data-analysis-mode
-Install TensorFlow on GPT-4 (advanced data analysis mode), or any other not pre-installed libraries.
-
-Note: GPT-4 has a limit of maximum size and amount of file(s) upload at one time(Max 512MB,10files). So we choose TensorFlow==2.3.0(manylinux;cp38), and uploads all the dependencies(~370MB in total) in 4 turns and instruct GPT to install it.
-
-## Steps
-**WIP**
+# TensorFlowLite and ONNX in GPT-4 advanced-data-analysis mode
+Install TensorFlowLite on GPT-4 (advanced data analysis mode), or any other not pre-installed libraries.
 
 First, create a venv on a similiar virtural machine.(python3.8;manylinux) and activate it. 
 
-Then,use 'pip download -d /path/to/your/folder tensorflow==2.3.0' to download the whole files.
+Then,use 'pip download -d /path/to/your/folder tflite' to download the whole dependencies of tflite.
+Use 'pip download -d /path/to/your/folder onnx'to download ONNX.
+
+Upload .whl files and instructs GPT-4 to install it step by step.
+
+Prompt it with words like 'try install this .whl offline', etc.
+
+<img width="666" alt="Screenshot 2023-09-18 at 05 54 38" src="https://github.com/sszzz830/TensorFlow-in-GPT-4-advanced-data-analysis-mode/assets/32834442/f36c2b6c-b7d4-4d9c-a421-ce6e1c98abde">
+
+Then finished.
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+The contents below are not able to install tf2.3.0 due to GPT-4's VM/container's memory limits.
+
+~~*Note: GPT-4 has a limit of maximum size and amount of file(s) upload at one time(Max 512MB,10files). So we choose TensorFlow==2.3.0(manylinux;cp38), and uploads all the dependencies(~370MB in total) in 4 turns and instruct GPT to install it.*~~
+
+~~*First, create a venv on a similiar virtural machine.(python3.8;manylinux) and activate it. *~~
+
+~~*Then,use 'pip download -d /path/to/your/folder tensorflow==2.3.0' to download the whole files.*~~
 
 ```
 pyasn1_modules-0.3.0-py2.py3-none-any.whl
@@ -52,8 +77,9 @@ Keras_Preprocessing-1.1.2-py2.py3-none-any.whl
 werkzeug-2.3.7-py3-none-any.whl
 ```
 
-Upload .whl files and instructs GPT-4 to install it step by step.
+~~*Upload .whl files and instructs GPT-4 to install it step by step.*~~
 
-Due to kernel restart, the first installation was not successful. But it's almost finished(all denpendencies are installed except tf2.3.0). I'll try again.
+~~*Due to kernel restart, the first installation was not successful. But it's almost finished(all denpendencies are installed except tf2.3.0). I'll try again.*~~
 
-<img width="499" alt="Failed" src="https://github.com/sszzz830/TensorFlow-in-GPT-4-advanced-data-analysis-mode/assets/32834442/127baa6b-bfcb-4312-bec9-76051de2f73a">
+<img width="49" alt="Failed" src="https://github.com/sszzz830/TensorFlow-in-GPT-4-advanced-data-analysis-mode/assets/32834442/127baa6b-bfcb-4312-bec9-76051de2f73a">
+_
