@@ -1,4 +1,4 @@
-# TensorFlowLite and ONNX in GPT-4 advanced-data-analysis mode
+# Install custom libraries on  GPT-4 (advanced data analysis mode)
 Install TensorFlowLite on GPT-4 (advanced data analysis mode), or any other not pre-installed libraries.
 
 First, create a venv on a similiar virtural machine.(python3.8;manylinux) and activate it. 
